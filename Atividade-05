@@ -30,6 +30,7 @@ escreva("Informe sua Renda Bruta: ")
 leia(renda_Bruta)
 
 //Exibindo informações
+
 escreva("Seu nome é : ",nome)
 escreva("Seu endereço é: ",endereco)
 escreva("Sua cidade é: ",cidade)
