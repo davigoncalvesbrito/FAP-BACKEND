@@ -1,0 +1,50 @@
+var
+
+caractere nome, endereco, cidade, nome_Pai, nome_Mae,
+
+inteiro cpf, rg, idade,
+
+real peso, renda_Bruta
+
+//Solicitando Informações
+
+escreva("Escreva seu nome: ")
+leia(nome)
+escreva("Informe seu endereço: ")
+leia(endereco)
+escreva("Informe a sua Cidade: ")
+leia(cidade)
+escreva("Digite o seu CPF: ")
+leia(cpf)
+escreva("Digite seu RG: ")
+leia(rg)
+escreva("Digite sua idade: ")
+leia(idade)
+escreva("Informe o nome do seu Pai: ")
+leia(nome_Pai)
+escreva("Informe o nome da sua Mãe: ")
+leia(nome_Mae)
+escreva("Informe seu Peso: ")
+leia(peso)
+escreva("Informe sua Renda Bruta: ")
+leia(renda_Bruta)
+
+//Exibindo informações
+
+escreva("Seu nome é : ",nome)
+escreva("Seu endereço é: ",endereco)
+escreva("Sua cidade é: ",cidade)
+escreva("Seu CPF é: ",cpf)
+escreva("Seu RG é: ",rg)
+escreva("Sua idade é:",idade)
+escreva("O nome do seu Pai é: ",nome_Pai)
+escreva("O nome da sua Mãe é: ",nome_Mae)
+escreva("Você pesa: ",peso)
+escreva("Sua Renda Bruta é: ",renda_Bruta)
+
+
+fimalgoritimo
+
+
+
+

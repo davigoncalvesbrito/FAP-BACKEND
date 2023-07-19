@@ -1,0 +1,9 @@
+var
+    numero, contador: inteiro;
+
+escreva("Digite um número para ser gerado a tabuada da multiplicação ")
+leia(numero)
+
+para contador de 1 ate 10 faca
+    escreva(numero, " x ", contador, " = ", (numero * contador))
+fimpara
