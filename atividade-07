@@ -1,9 +1,9 @@
 var
     numero, contador: inteiro;
 
-escreva("Digite a tabuada da multiplicação de 2, 3 ou 5: ")
+escreva("Digite um número para ser gerado a tabuada da multiplicação ")
 leia(numero)
 
-para contador de 0 ate 10 faca
+para contador de 1 ate 10 faca
     escreva(numero, " x ", contador, " = ", (numero * contador))
 fimpara
