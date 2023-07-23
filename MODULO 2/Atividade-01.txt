@@ -1,7 +1,7 @@
 let nota1, nota2, media;
-nota1 = prompt('Digite Sua Primeira Nota: ');
-nota2 = prompt('Digite Sua Segunda Nota : ');
-media = (parseFloat(nota1) + parseFloat(nota2)) / 2;
+nota1 = Number(prompt('Digite Sua Primeira Nota: '));
+nota2 = Number(prompt('Digite Sua Segunda Nota : '));
+media = (nota1 + nota2) / 2;
 if (media >= 7) {
     console.log('Você estar Aprovado! ');
     console.log('Sua Média foi: ' + media);
