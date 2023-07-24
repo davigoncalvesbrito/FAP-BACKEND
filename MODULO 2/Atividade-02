@@ -1,0 +1,9 @@
+var nome, idade, altura, maior_de_idade;
+nome = 'Davi';
+idade = 25;
+altura = 1.85;
+maior_de_idade = true;
+console.log(nome);
+console.log(idade);
+console.log(altura);
+console.log(maior_de_idade);
