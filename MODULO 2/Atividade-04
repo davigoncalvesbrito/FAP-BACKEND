@@ -1,0 +1,17 @@
+var rodas, pesoBruto, passageiros;
+rodas = parseInt(prompt('Informe a quantidade de rodas do veículo : '));
+pesoBruto = parseInt(prompt('Informe o peso bruto  do veículo : '));
+passageiros = parseInt(prompt('Informe a quantidade de passageiros do veículo: '));
+if (rodas == 2 || rodas == 3) {
+    console.log('Sua categoria de habilitação: A ');
+} else if (rodas == 4 && passageiros <= 8 && pesoBruto <= 3500) {
+    console.log('Sua categoria de habilitação: B');
+} else if (rodas >= 4 && pesoBruto > 3500 && pesoBruto <= 6000) {
+    console.log('Sua categoria de habilitação: C');
+} else if (rodas >= 4 && passageiros > 8) {
+    console.log('Sua categoria de habilitação: D');
+} else if (rodas >= 4 && pesoBruto > 6000) {
+    console.log('Sua categoria de habilitação: E');
+} else {
+    console.log('Categoria não indentificada ');
+}
