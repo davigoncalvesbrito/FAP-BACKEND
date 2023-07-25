@@ -1,4 +1,4 @@
-let nota1, nota2, media;
+var nota1, nota2, media;
 nota1 = Number(prompt('Digite Sua Primeira Nota: '));
 nota2 = Number(prompt('Digite Sua Segunda Nota : '));
 media = (nota1 + nota2) / 2;
