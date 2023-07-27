@@ -10,7 +10,7 @@ usuarioBase = parseFloat(prompt('Digite o tamanho da base: '));
 usuarioAltura = parseFloat(prompt('Digite o tamanho da altura:'));
 calcular = areaDoTriangulo(usuarioBase, usuarioAltura);
 if (calcular !== null) {
-    alert('A área do triângulo é : ' + calcular + ' cm²');
+    alert('A área do triângulo é : ' + calcular.toFixed(2) + ' cm²');
 } else {
     alert('Por favor, insira os dados válidos');
 }
