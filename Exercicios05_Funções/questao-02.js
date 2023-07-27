@@ -1,3 +1,4 @@
+// Escreva uma função que retorne o cubo de um número fornecido pelo usuário.
 function calcularCubo(numero) {
     if (isNaN(numero)) {
         //isNaN(numero) é usada para verificar se o valor não é um número.
