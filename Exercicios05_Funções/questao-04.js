@@ -1,3 +1,4 @@
+//Escreva uma função que retorne a área de um triângulo, a partir dos valores de base e altura fornecidos.
 function areaDoTriangulo(base, altura) {
     if (isNaN(base) || isNaN(altura)) {
         return null;
