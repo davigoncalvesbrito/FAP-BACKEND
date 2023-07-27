@@ -6,9 +6,9 @@ function areaDoTriangulo(base, altura) {
     return (media = (base * altura) / 2);
 }
 
-usuarioBase = parseFloat(prompt('Digite o tamanho da base: '));
-usuarioAltura = parseFloat(prompt('Digite o tamanho da altura:'));
-calcular = areaDoTriangulo(usuarioBase, usuarioAltura);
+let usuarioBase = parseFloat(prompt('Digite o tamanho da base: '));
+let usuarioAltura = parseFloat(prompt('Digite o tamanho da altura:'));
+let calcular = areaDoTriangulo(usuarioBase, usuarioAltura);
 if (calcular !== null) {
     alert('A área do triângulo é : ' + calcular.toFixed(2) + ' cm²');
 } else {
