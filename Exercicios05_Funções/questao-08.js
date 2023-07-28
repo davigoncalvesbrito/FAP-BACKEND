@@ -1,3 +1,6 @@
+/*Escreva uma função que informe o retorno de um investimento (montante) com base nos valores do capital inicial,
+tempo em meses e taxa de juros mensal, fornecidos pelo usuário.*/
+
 function retornoInvestimento(capitalInicial, tempoInvestimento, taxaJuros) {
     if (isNaN(capitalInicial) && isNaN(tempoInvestimento) && isNaN(taxaJuros)) {
         return null;
