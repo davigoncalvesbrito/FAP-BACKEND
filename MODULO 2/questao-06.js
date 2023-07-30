@@ -18,6 +18,6 @@ function calculadora(n1, n2, operacao) {
     }
 }
 
-resultado = calculadora(4, 0, 5);
+resultado = calculadora(4, 0, 4);
 
 console.log('resultado é ' + resultado);
