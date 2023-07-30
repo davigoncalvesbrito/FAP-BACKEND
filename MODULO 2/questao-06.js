@@ -1,11 +1,11 @@
 function calculadora(n1, n2, operacao) {
-    if (operacao == 1) {
+    if (operacao == 1) { //Soma
         return n1 + n2;
-    } else if (operacao == 2) {
+    } else if (operacao == 2) { //Subtração
         return n1 - n2;
-    } else if (operacao == 3) {
+    } else if (operacao == 3) { //Multiplicação
         return n1 * n2;
-    } else if (operacao == 4) {
+    } else if (operacao == 4) { //Divisão
         if (n2 != 0) {
             return n1 / n2;
         } else {
