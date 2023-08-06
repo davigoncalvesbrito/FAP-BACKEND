@@ -12,7 +12,7 @@ function calcularIdade() {
             alert('Digite o ano de nascimento entre 1922 e 2021');
         } else {
             const idade = anoAtual - ano;
-            alertO(
+            alert(
                 'Seu nome é: ' +
                     nome +
                     ' você completou ou vai completar neste ano: ' +
@@ -22,12 +22,6 @@ function calcularIdade() {
             return idade;
         }
     }
-}
-
-try {
-    media = calcularIdade();
-} catch (error) {
-    console.log(error.message);
 }
 
 //EXEMPLO 2
