@@ -9,7 +9,7 @@ function calcularIdade() {
     while (true) {
         let nome = prompt('Digite seu nome :');
         let ano = parseInt(
-            prompt('Informe seu o ano do seu nascimento entre 1922 e 2021'),
+            prompt('Informe seu o ano do seu nascimento entre 1922 e 2022'),
         );
         if (isNaN(ano)) {
             alert('informações invalidas, tente novamente!');
