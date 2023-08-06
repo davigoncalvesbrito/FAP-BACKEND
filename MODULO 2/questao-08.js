@@ -6,8 +6,8 @@ até que um valor correto seja preenchido.*/
 //EXEMPLO 1
 function calcularIdade() {
     const anoAtual = 2022;
+    let nome = prompt('Digite seu nome :');
     while (true) {
-        let nome = prompt('Digite seu nome :');
         let ano = parseInt(
             prompt('Informe seu o ano do seu nascimento entre 1922 e 2022'),
         );
