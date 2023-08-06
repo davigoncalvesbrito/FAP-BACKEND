@@ -28,7 +28,7 @@ function calcularIdade() {
         }
     }
 }
-
+const media = calcularIdade();
 //EXEMPLO 2
 //UTILIZANDO O 'throw new Error' fará com que a execução seja interrompida e o loop seja encerrado
 function calcularIdade() {
