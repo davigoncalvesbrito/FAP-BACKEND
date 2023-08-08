@@ -1,4 +1,4 @@
-#instruções
+
 const pessoas = [
     { nome: 'Davi', idade: 25, corFavorita: 'azul' },
     { nome: 'Joyce', idade: 27, corFavorita: 'amarelo' },
