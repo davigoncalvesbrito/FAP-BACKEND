@@ -25,3 +25,34 @@ console.log('a soma das notas deu ', somar);
 console.log(
     'a media do aluno ' + notasAlunos[0][0] + ' foi: ' + media.toFixed(2),
 );
+
+//UTILIZANDO OBJETO DE ARRAY 
+function calcular_Exibir(alunos) {
+    const alunoEscolhido = alunos[2]; //Selecionando o indice do aluno desejado
+
+    let somar = 0;
+    for (let i = 0; i < alunoEscolhido.notas.length; i++) {
+        // '.notas' selecionando o indice desejado
+        somar += alunoEscolhido.notas[i];
+    }
+   
+    console.log('a soma das notas deu: ', somar);
+    
+    let media = somar / alunoEscolhido.notas.length;
+    // '.notas' selecionando o indice desejado
+
+    console.log(
+        'a media do aluno ' + alunoEscolhido.nome + ' foi: ' + media.toFixed(2),
+        // '.nome' selecionando o indice desejado
+    );
+    return media;
+}
+
+const notas = [
+    { nome: 'jose', notas: [10, 7, 6, 5] },
+    { nome: 'Lucia', notas: [8, 7, 9, 6] },
+    { nome: 'Pedro', notas: [6, 5, 8, 7] },
+];
+
+media = calcular_Exibir(notas);
+
