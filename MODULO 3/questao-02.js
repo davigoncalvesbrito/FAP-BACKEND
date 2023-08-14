@@ -1,11 +1,11 @@
-FIZ O EXEMPLO QUE PASSOU NO SLIDER ACHEI MELHOR PARA FIXAR O CONTEÚDO 
+//FIZ O EXEMPLO QUE PASSOU NO SLIDER ACHEI MELHOR PARA FIXAR O CONTEÚDO 
 let notasAlunos = [
     ['jose', 5.5, 7.9, 7.1],
     ['Lucia', 7, 3.5, 4.0],
     ['Pedro', 8.6, 7.3, 8.8],
 ];
 
-// // Acessando elementos da matriz (array bidimensional)
+// // Acessando elementos da matriz (array bidimensional) 
 // console.log(notas[0][0]); // Nome do primeiro aluno
 // console.log(notas[0][1]); // Primeira nota do aluno um
 // console.log(notas[1][0]); // Nome do segundo aluno
