@@ -1,3 +1,4 @@
+FIZ O EXEMPLO QUE PASSOU NO SLIDER ACHEI MELHOR PARA FIXAR O CONTEÚDO 
 let notasAlunos = [
     ['jose', 5.5, 7.9, 7.1],
     ['Lucia', 7, 3.5, 4.0],
