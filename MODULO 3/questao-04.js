@@ -14,6 +14,7 @@ const pessoa4 = criarPessoas('emmilly', 25);
 
 pessoa1.filho = pessoa2;
 pessoa4.filho = pessoa2;
+pessoa3.filho = pessoa1;
 
 const listaEncadeada = [pessoa1, pessoa2, pessoa3, pessoa4];
 
