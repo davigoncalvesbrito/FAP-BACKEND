@@ -36,7 +36,7 @@ class Carro extends Veiculo {
 }
 
 
-// Seu código das classes Veiculo e Carro aqui...
+
 
 // Classe de aplicação
 class Aplicacao {
