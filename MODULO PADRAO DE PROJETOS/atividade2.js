@@ -1,4 +1,5 @@
-// Classe abstrata Veiculo
+// Classe abstrata de veiculo
+
 class Veiculo {
     constructor(modelo, marca, cor, numeroRodas) {
         this.modelo = modelo;
